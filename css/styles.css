@@ -1,29 +1,39 @@
-body{
-  background: #111;
-}
+/* line 1, /Volumes/jeverard/WEBDesign/Web2/web-2-starter/css/styles.scss */
+html {
+  background-color: aqua; }
 
-h1{
+/* line 4, /Volumes/jeverard/WEBDesign/Web2/web-2-starter/css/styles.scss */
+body {
+  border: 1px solid red; }
+
+/* line 8, /Volumes/jeverard/WEBDesign/Web2/web-2-starter/css/styles.scss */
+h1 {
   font-size: 8em;
-    color: #0FA;
-}
+  color: #0FA; }
 
-span[class^="char"]{
-  color: #000;
-  
-  
-}
+/* line 13, /Volumes/jeverard/WEBDesign/Web2/web-2-starter/css/styles.scss */
+span[class^="char"] {
+  color: #000; }
 
+/* line 19, /Volumes/jeverard/WEBDesign/Web2/web-2-starter/css/styles.scss */
+img {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto; }
 
+/* line 27, /Volumes/jeverard/WEBDesign/Web2/web-2-starter/css/styles.scss */
+span[class^="char"]:nth-of-type(odd) {
+  color: #FF0;
+  letter-spacing: -5px; }
 
-span[class^="char"]:nth-of-type(odd){
-    color: #FF0;
-    letter-spacing: -5px;
-  }
-  span[class^="char"]:nth-of-type(even){
-    color: #0FF;
-    letter-spacing: 20px;
-  }
-  span[class^="char"]:nth-of-type(6n){
-    color: #F0F;
-    letter-spacing: -5px;
-  }
+/* line 31, /Volumes/jeverard/WEBDesign/Web2/web-2-starter/css/styles.scss */
+span[class^="char"]:nth-of-type(even) {
+  color: #0FF;
+  letter-spacing: 20px; }
+
+/* line 35, /Volumes/jeverard/WEBDesign/Web2/web-2-starter/css/styles.scss */
+span[class^="char"]:nth-of-type(6n) {
+  color: #F0F;
+  letter-spacing: -5px; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,38 @@
+html{
+    background-color: aqua;
+}
+body{
+    border: 1px solid red;
+}
+
+h1{
+  font-size: 8em;
+    color: #0FA;
+}
+
+span[class^="char"]{
+  color: #000;
+  
+  
+}
+
+img{
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+
+
+span[class^="char"]:nth-of-type(odd){
+    color: #FF0;
+    letter-spacing: -5px;
+  }
+  span[class^="char"]:nth-of-type(even){
+    color: #0FF;
+    letter-spacing: 20px;
+  }
+  span[class^="char"]:nth-of-type(6n){
+    color: #F0F;
+    letter-spacing: -5px;
+  }
